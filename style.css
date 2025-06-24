@@ -1,0 +1,402 @@
+
+.navbar {
+  background-color: rgb(0, 0, 51);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.logo img {
+  height: 60px;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.hero {
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/hero-cruise.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.hero h1 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 10px;
+}
+.hero p {
+  font-size: 18px;
+  margin: 20px;
+}
+.hero button {
+  background-color: rgb(201, 61, 11);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+}
+.discover {
+  padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+.heading {
+  border-left: 3px solid #ffc107;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+.heading h2 {
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+.heading p {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.popular {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.popular h4 {
+  font-size: 1em;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+.pills {
+  display: flex;
+  gap: 10px;
+}
+.pill {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 8px 15px;
+}
+.pill img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.Banner {
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/caribbean-cruise.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  height: 60vh;
+}
+.Banner-text {
+  color: white;
+  padding: 10px;
+
+}
+.Banner h4 ,
+.card h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+.Banner p ,
+.card p {
+  margin: 5px 0 0;
+  font-size: 1em;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  gap: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.card-first{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/mediterranean-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-second{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/dubai-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-third{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/northern-europe-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-four{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/redsea-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-five{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/bermuda-beach-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-six{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/south-africa-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-seven{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/south-america-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card-eight{
+  background-image: url(https://raw.githubusercontent.com/Mohak-Trivedi/xcruise-assets/refs/heads/master/asia-cruise.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 30vh;
+}
+.card {
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+#contact {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+#contact h3 {
+  display: inline-block;
+  border-bottom: 3px solid #ffc107;
+  padding: 5px;
+  margin: 10px auto;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.contact_info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 10px;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact_box {
+  flex: 1;
+  min-width: 250px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#Contact_Information h4,
+#Hours-of-Operation h4 {
+  font-size: 1em;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+#Contact_Information p,
+#Hours-of-Operation p {
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+  color: #666;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.social-icons img {
+  height: 16px;
+  width: 16px;
+  object-fit: contain;
+}
+.footer-class ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-class li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+.footer-class h4 {
+  color: #bd900a;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: rgb(25, 3, 48);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 30px 20px 0;
+}
+.footer-class {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer_rights {
+  text-align: center;
+  border-top: 1px solid #666;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+
+
+@media  (min-width:480px) and (max-width:767px) {
+ .popular {
+  justify-content: center;
+ }
+ .popular h4 {
+  font-size: 12px;
+  font-weight: bold;
+ }
+ .pill {
+  font-size: 10px;
+  padding: 5px 10px;
+ }
+ .cards {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  gap: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.Banner {
+  height: 40vh;
+  background-position: 70% center; 
+}
+  
+  
+}
+@media (max-width:479px) {
+  .popular {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .pills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .Banner {
+    height: 35vh;
+    background-position: 80% center; 
+  }
+  
+  
+}
+@media  (max-width:767px){
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+  }
+  .heading {
+    border-left: none;
+  }
+  .heading h2 {
+    padding: 0 0 0 40px;
+  }
+  .contact_info {
+  flex-direction: column;
+  align-items: center;
+  }
+  .contact_box {
+    width: 100%;
+  }
+  .footer-class {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+  footer {
+    padding: 0 20px;
+  }
+ 
+
+}
